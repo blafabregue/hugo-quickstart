@@ -3,8 +3,8 @@ describe('empty spec', () => {
     cy.visit('/')
   })
   it('displays the resources text', () => {
-    cy.get('h2')
-    .contains('This is a bare-bones Hugo project that has everything you need to quickly deploy it to Netlify');
+    cy.get('h1')
+    .contains('Scientia - Amandine Pittaluga');
   })
   it('renders the image', () => {
     cy.get('img')
