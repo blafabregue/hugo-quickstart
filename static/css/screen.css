@@ -473,7 +473,7 @@ ul li {
   margin-bottom: 0rem;
   text-align: center;
   color: #fff;
-  background: #b80135 no-repeat center center;
+  background: #9fd067 no-repeat center center; /* color of the background + report to .post-holder.odd*/
   background-size: cover;
 }
 
@@ -521,7 +521,7 @@ ul li {
   position: relative;
 }
 .post-holder.odd {
-  background: #b80135;
+  background: #80C664;
   color: white;
 }
 
@@ -566,7 +566,7 @@ a.fn-item:hover {
   color: #9fd067;
 }
 a.fn-item.active {
-  color: #86c440;
+  color: #C70039;
   opacity: 1;
 }
 
